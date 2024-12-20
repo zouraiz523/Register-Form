@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+<body>
+    <div class="form-container">
+        <h2>Register</h2>
+        <form id="registerForm">
+            <!-- Username Input -->
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+
+            <!-- Password Input with Toggle -->
+            <div class="form-group">
+                <label for="password">Password</label>
+                <div class="input-group">
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    <i data-feather="eye" class="feather-eye" style="cursor: pointer;"></i>
+                    <i data-feather="eye-off" class="feather-eye-off" style="display: none; cursor: pointer;"></i>
+                </div>
+            </div>
+            
+          
+            
+            
+            <!-- Color Picker -->
+            <div class="color-picker-container">
+                <label for="colorPicker">Pick your favorite color:</label>
+                <input type="color" id="colorPicker" name="color">
+                <div class="hex-value" id="hexValue">Hex: #ffffff</div>
+            </div>
+            
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <script src="main.js
+    "></script>  <script src="https://unpkg.com/feather-icons"></script>
+    <script src="m.js"></script>
+</body>
+</html>
